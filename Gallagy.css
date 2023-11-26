@@ -1,0 +1,239 @@
+*{
+    margin: 0px; padding:  0px;
+    font-family: verdana;
+    z-index: 1;
+
+   
+}
+
+/* 앵커 기본 설정 */
+
+a{
+    text-decoration-line: none; /* 글자 밑에 줄 없애기 */
+}
+
+a:visited{
+    color: black; /* 방문한 사이트 글자색 검은색으로 지정*/
+}
+
+header{
+    width:  100%;  
+    position: fixed;
+
+    top: 0px;
+    border-bottom: 2px solid black;
+   
+    z-index: 2;
+}
+
+#inner_box{
+    position: relative;
+
+    width: 1180px; height: 120px;
+    margin: 0px auto;  
+   
+
+    background-color: white;
+    
+}
+
+#inner_box > h1{
+    position: absolute;
+    left:  10px; bottom:  15px;
+    float:  left;
+}
+
+
+#inner_box > #global{
+    position: absolute;
+
+    right: 0px;
+    bottom:  0px;
+}
+
+#inner_box > #global > li{
+    list-style:  none;
+    float: left;
+    padding: 10px 45px 25px;
+}
+
+
+
+#inner_box > #utility{
+    position: absolute;
+
+    right: 30px;
+    top : 20px;
+}
+
+#inner_box > #utility > li{
+    list-style:  none;
+    float : left;
+
+    padding: 0px 20px 0px;
+}
+
+
+#test{
+    height: 300px;
+    width: 300px;
+
+    background-color: red;
+}
+
+#test .test2 {
+    height: 150px;
+    width: 150px;
+
+    background-color: yellow;
+}
+
+section{
+    margin:  0 auto;
+    width: 1000px;
+
+    background-color:  yellow;
+}
+
+
+article{
+    float: left;
+}
+
+section .article1{
+   position: relative;
+   
+   width:  700px;
+   height: 400px;
+   background-image: url(700x400.png);
+}
+
+section .article1 .article1Text{
+    position: absolute;
+
+    color: white;
+    font-size: 30px;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+section .article2{
+    position: relative;
+
+    margin-left: 10px;
+    width:  290px;
+    height: 190px;
+ 
+    background-image: url(290x190.png);
+}
+
+section .article2 .article2Text{
+    position: absolute;
+
+    top:  50px;
+    left: 10px;
+
+    font-size: 30px;
+    color: white;
+}
+
+section .article3{
+    position: relative;
+
+    margin: 10px 0px 0px 10px;
+    width: 290px;
+    height: 95px;
+}
+
+section .article3 .article3Text{
+    position: absolute;
+
+    color: white;
+    font-size: 20px;
+    right: 10px;
+    bottom: 20px;
+}
+
+
+section .article4{
+    position: relative;
+
+    margin-top: 10px;
+
+    width: 490px;
+    height: 240px;
+
+}
+
+section .article4  .article4Text{
+    position: absolute;
+
+    right: 20px;
+    bottom: 30px;
+    font-size: 30px;
+
+    color: yellow;
+}
+
+
+section .article5{
+    float: right;
+
+    margin: 10px 0px 0px 10px;
+    width: 500px;
+    height: 490px;
+}
+
+
+section .article6{
+    margin-top: 10px;
+    position: relative;
+
+    width: 1000px;
+    height: 371px;
+}
+
+section .article6 .article6Text
+{
+    position: absolute;
+    
+    color: white;
+    font-size: 50px;
+
+    left: 16%;
+    top : 40%;
+}
+
+section .article7{
+    position: relative;
+
+    margin-top: 10px;
+
+    width: 1000px;
+    height: 361px;
+
+}
+
+section .article7 .article7Text{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+
+    width: 450px;
+    height: 150px;
+
+    right: 30px;
+    bottom: 40px;
+
+}
+
+section .article7 .article7Text strong{
+    font-size: 30px;
+}
+
+
+
+
+
+

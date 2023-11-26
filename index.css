@@ -1,0 +1,183 @@
+*{
+    margin: 0px; padding:  0px;
+    font-family: verdana;
+}
+
+/* 앵커 기본 설정 */
+
+a{
+    text-decoration-line: none; /* 글자 밑에 줄 없애기 */
+}
+
+a:visited{
+    color: black; /* 방문한 사이트 글자색 검은색으로 지정*/
+}
+
+
+
+header{
+    width:  100%; 
+}
+
+#inner_box{
+    position: relative;
+
+    width: 1180px; height: 120px;
+    margin: 0px auto;  
+}
+
+#inner_box > h1{
+    position: absolute;
+    left:  10px; bottom:  15px;
+    float:  left;
+}
+
+
+#inner_box > #global{
+    position: absolute;
+
+    right: 0px;
+    bottom:  0px;
+}
+
+#inner_box > #global > li{
+    list-style:  none;
+    float: left;
+    padding: 10px 45px 25px;
+}
+
+
+
+#inner_box > #utility{
+    position: absolute;
+
+    right: 30px;
+    top : 20px;
+}
+
+#inner_box > #utility > li{
+    list-style:  none;
+    float : left;
+
+    padding: 0px 20px 0px;
+}
+
+
+#main_image{
+    position: relative;
+
+    width: 100%;
+    height: 590px;
+
+    background-image: url(bg_main.png);
+}
+
+
+#main_image_inner_box{
+    position:  absolute;
+
+    width: 800px;
+    height:  300px;
+
+    top: 150px;
+    left:  50%;
+    
+    margin-left: -400px; 
+}
+
+
+#section{
+    position: relative;
+
+    width:  1180px;
+    height: 480px;
+
+    margin: 0px auto;  
+}
+
+
+#section > #asd
+{
+    width: 100px;
+    height: 100px;
+
+    margin:  0px auto;
+    text-align: center;
+
+    background-color:  red;
+}
+
+
+#section > article{
+    width:  295px;
+    height: 300px;
+    margin-top: 50px;
+
+    float: left;
+    text-align: center;
+}
+
+#section > article > p{
+    text-align: left;
+    padding-left: 32px;
+}
+
+
+
+#footer {
+
+
+    width: 100%;
+    height: 200px;
+
+    background-color: black;
+}
+
+#footer > #inner_box{
+    position: relative;
+
+    width: 1000px;
+    height: 100px;
+}
+
+#footer > #inner_box > h1{
+    position: absolute;
+
+    left:  10px;
+    bottom: 15px;
+
+    
+}
+
+#footer > #inner_box > ul{
+    position: absolute;
+
+    right: 20px;
+    bottom:  15px;
+
+   
+}
+
+#footer > #inner_box > ul > li{
+    list-style: none;
+    float: left;
+    color: gray;
+}
+
+#footer > #inner_box > ul > li::after{
+    content: "|";
+    padding:  0px 15px 0px;
+}
+
+#footer > #inner_box > ul > li:last-child::after{
+    content: "";
+}
+
+
+#footer > #inner_box > p{
+    position: absolute;
+    color: gray;
+    
+    left: 0;
+    bottom: -85%;
+}
